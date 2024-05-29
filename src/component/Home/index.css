@@ -1,0 +1,71 @@
+.course-card-container {
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.course-head {
+  font-family: Roboto;
+  font-size: 38px;
+  color: #1e293b;
+  margin-bottom: 40px;
+  font-weight: 900;
+}
+
+.course-list-items-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tech-era-courses-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.course-list-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-list-failure-view-head {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 42px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.course-list-failure-view-desc {
+  font-family: Roboto;
+  color: #475569;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.course-list-failure-view-image {
+  height: 300px;
+  width: 400px;
+}
+
+.course-list-failure-retry-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #4656a1;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 0px;
+}
